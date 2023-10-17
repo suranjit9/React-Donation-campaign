@@ -3,9 +3,9 @@ import SingalCard from "./SingalCard";
 
 const Cads = () => {
    const phone = useData();
-//    console.log(phone.length)
+
     return (
-        <div className="grid grid-cols-4 gap-5">
+        <div className="grid grid-cols-1 md:grid-cols-2  lg:grid-cols-4 gap-5 mt-9">
             {
                 phone.map(card => <SingalCard 
                     key={card.id}

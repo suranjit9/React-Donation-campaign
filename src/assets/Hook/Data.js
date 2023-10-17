@@ -8,7 +8,7 @@ const useData = () => {
         .then(Data => setdata(Data))
         
     }
-    ,[])
+    ,[data])
     return (data);
 };
 
